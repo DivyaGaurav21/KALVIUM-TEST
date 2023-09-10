@@ -3,6 +3,7 @@
 
 // Get all the square elements
 const allDiv = document.getElementsByClassName('draggable');
+const allDiv2 = document.getElementsByClassName('draggable');
 
 // Attach the drag and drop functionality to each square
 for (const square of allDiv) {
